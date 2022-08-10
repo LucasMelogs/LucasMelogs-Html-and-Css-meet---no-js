@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgb(37, 37, 37);
+    
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+    min-width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:34px ;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold ;
+    transition: 0.8s;
+}
+
+.logo:hover{
+    color: blueviolet;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 65px;
+    padding-right: 3ch;
+}
+
+.nav-link {
+    transition: 0.8s;
+}
+
+.nav-link:hover {
+    color: rgb(211, 125, 245);
+}
+
+.x {
+    display: none;
+    cursor: pointer;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+img{
+    max-width: 400px;
+    color: white;
+    padding: 40px;
+
+}
+
+.texto{
+    color: white;
+    font-family:sans-serif;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 25px;
+    background-color: rgb(87, 190, 87);
+    border: 3px rgb(255, 255, 255) solid;
+    border-radius: 30px;
+    max-width: 600px;
+    padding: 40px;
+
+}
+
+.div-texto{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-imagens{
+    margin-top: 50px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-img{
+    color: rgb(255, 255, 255);
+    font-family: 'Lobster',;
+}
+
+.ul-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+#t1{
+    padding-left: 30px;
+}
+
+#t2{
+    padding-left: 0px;
+}
+
+#t3{
+    padding-right: 0px;
+}
+
+#t4{
+    margin-right: 30px;
+}
+
+#t5{
+    padding-left: 260px;
+}
+
+#t6{
+    padding-right: 0px;
+}
+
+#t7 {
+    padding-right: 180px;
+}
+
+.yx {
+    height: 100px;
+}

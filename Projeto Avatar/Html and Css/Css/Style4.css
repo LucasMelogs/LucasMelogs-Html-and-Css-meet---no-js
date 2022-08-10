@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgb(27, 27, 27);
+    
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+    min-width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:34px ;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold ;
+    transition: 0.8s;
+}
+
+.logo:hover{
+    color: blueviolet;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 65px;
+    padding-right: 3ch;
+}
+
+.nav-link {
+    transition: 0.8s;
+}
+
+.nav-link:hover {
+    color: rgb(211, 125, 245);
+}
+
+.x {
+    display: none;
+    cursor: pointer;
+}
+
+body{
+    background-color: black;
+}
+
+.texto-h1{
+    color: white;
+    margin:  50px 0px 0px 90ch;
+}
+
+p{
+    color: white;
+}
+.container img{
+    width: 250px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 80px;
+}
+
+.tchau img{
+    margin-top: 205px;
+    width: 200px;
+    border-radius: 1%
+}
+

@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgb(27, 27, 27);
+    
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+    min-width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:34px ;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold ;
+    transition: 0.8s;
+}
+
+.logo:hover{
+    color: blueviolet;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 65px;
+    padding-right: 3ch;
+}
+
+.nav-link {
+    transition: 0.8s;
+}
+
+.nav-link:hover {
+    color: rgb(211, 125, 245);
+}
+
+.x {
+    display: none;
+    cursor: pointer;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+
+img{
+    max-width: 650px;
+    min-width: 250px; 
+    min-height: 250px;  
+}
+
+.Container-Pontos{
+    color: white;
+    display: flex;
+    padding:34px ;
+    border: 3px rgb(255, 255, 255) solid;
+    margin: 35px;
+    border-radius: 50px;
+}
+
+h1{
+    margin-top: 80px;
+    font-size: 50px;
+    color: rgb(99, 236, 99);
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-left: 250px;
+}
+
+.lista {
+    margin-top: 30px ;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.itens-listas{
+    padding: 10px;
+    margin: 10px;
+
+    border: 1px white solid;
+    border-radius: 50px;
+}
+
+.red {
+    color: rgb(240, 45, 45);
+}
+
+.img-fetal{
+    margin-left: 150px;
+}
+
+.texto-2{
+    margin-left: 380px;
+}
+
+.text-comp{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.comparação{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px 160px;
+}
+
+.container-comparacao {
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+}
+
+.comparação img{
+    width: 600px;
+    border-radius: 50%;
+    background-color: rgb(202, 202, 202);
+}
